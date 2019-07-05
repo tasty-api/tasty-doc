@@ -1,0 +1,4 @@
+- [Philosophy](philosophy.md)
+- [Getting Started](installation.md)
+- [Cookbook](cookbook.md)
+- [API reference](api.md)
