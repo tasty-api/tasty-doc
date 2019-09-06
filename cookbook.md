@@ -137,9 +137,28 @@ The **trace** section is optional. Leave this section as it is. The trace config
 **Secondly**, create the "/endpoints" folder and your endpoints' subfolders inside the /app directory:
 In this example we will create two subfolders for authorization:
 ```bash
-
+@TODO tree ../tsaty_app
+```
+#### 1.1.4. Create schemas for validation
+description of schemas: how are they interconnected with the tests
+description of appropriate JSON and JOI schemas with references, notice that this will be described later in a cookbook
+#### 1.1.5. Initialize your first test inside /test folder 
+Create the following test files inside the /test folder
+#### 1.1.6 Perform test
+TODO
+initialize the testing process by the command:  
+```bash
+npm run test
+```
+or
+```bash
+npx tasty
 ```
 
+#### 1.1.7 Bindings
+(this section will provide the basic info about how declaration block is connected with the test instance: what possibilities are mentioned in the test examples, and for the further info see below chapter #<some_number> )
+
+#### 1.1.7
 #### Appendix
 Because of the use of "Mocha" for functional and "Artillery" for load testing, there are additional configuration options 
 If you want to use extra features of tests configuration, you may create additional files ".mocharc.js" and ".artilleryrc.js" in root folder of the project
